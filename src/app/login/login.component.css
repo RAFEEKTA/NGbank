@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.main{
+
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+
+}
+.outline{
+background-color: rgba(0, 0, 0, 0.368);
+ 
+}
+input{
+    display: block;
+    height: 40px;
+
+   border: none;
+   
+
+}
+button{
+    width: 80px;
+    
+}

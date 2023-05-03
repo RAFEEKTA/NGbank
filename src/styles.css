@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+body{
+    background-image: url(./assets/rupee-symbol-digital-technology-background_1017-36810.avif);
+    background-size: cover;
+    font-family: 'Headland One', serif;
+}
