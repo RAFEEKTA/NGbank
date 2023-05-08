@@ -1,10 +1,14 @@
+<h2 class="text-center mt-3">ONLINE BANKING</h2>
+<div class="main text-center">
+    
+    <div class="login-box pb-4">
+        <h3 class="pt-3">Login</h3>
+        <input (change)="acnochange($event)" type="number" class=" mt-4" placeholder="AC/NO">
+        <input type="password" class=" mt-4 mb-3" placeholder="Password">
+        <a href="" >Forgotten password?</a><br>
+        <button (click)="login()" class="btn btn w-50 mt-4 text-white">login</button><br><br>
+        <span>not registered  ?</span><a href=""> register here</a>
 
-<div class="main">
-    <div class="outline text-center pt-4 p-4 ">
-        <h2 class="">login</h2>
-        <input #uname type="text" class="mt-4 w-100 p-3" [placeholder]="placeholderdata">
-        <input #psw type="password" class="mt-4 w-100 p-3" placeholder="Password">
-        <button (click)="login(uname,psw)" class="btn btn-info mt-3 " type="button">login</button><br>
-        <label for=""><a href="" class="mt-4">create account</a></label>
     </div>
+    
 </div>
