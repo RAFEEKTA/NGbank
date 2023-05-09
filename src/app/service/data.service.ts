@@ -4,10 +4,10 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DataService {
-
+  sdata="services data"
   constructor() { }
 
-  checkdata(){
-    return "hello hai"
+  checkata(){
+  return "hello hi"
   }
 }

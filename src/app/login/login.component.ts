@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../service/data.service';
 
 @Component({
   selector: 'app-login',
@@ -6,14 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
- 
-  constructor() { }
+
+  constructor(private ds:DataService) { }
   ngOnInit(): void {
 
   }
-  login(a:any,b:any) {
+  login() {
+console.log(this.ds.sdata);
 
-    console.log(a.value,b.value);
+alert(this.ds.checkata())
+   
     
 
 
