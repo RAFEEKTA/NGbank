@@ -3,10 +3,10 @@
     
     <div class="login-box pb-4">
         <h3 class="pt-3">Login</h3>
-        <input (change)="acnochange($event)" type="number" class=" mt-4" placeholder="AC/NO">
-        <input type="password" class=" mt-4 mb-3" placeholder="Password">
+        <input #uname type="number" class=" mt-4" placeholder="AC/NO">
+        <input #psw type="password" class=" mt-4 mb-3" placeholder="Password">
         <a href="" >Forgotten password?</a><br>
-        <button (click)="login()" class="btn btn w-50 mt-4 text-white">login</button><br><br>
+        <button (click)="login(uname,psw)" class="btn btn w-50 mt-4 text-white">login</button><br><br>
         <span>not registered  ?</span><a href=""> register here</a>
 
     </div>

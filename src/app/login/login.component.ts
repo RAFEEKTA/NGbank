@@ -11,14 +11,12 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
 
   }
-  login() {
+  login(a:any,b:any) {
 
-    alert("login clicked")
+    console.log(a.value,b.value);
+    
 
-
-  }
-acnochange(event:any){
-console.log(event.target.value);
 
   }
+
 }
